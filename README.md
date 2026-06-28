@@ -4,7 +4,8 @@
 1. BoardRepositoryTest 
 검증 대상 : 데이터베이스 영속성 계층 BoardRepository
 특징 : @DataJpaTest 를 사용하여 JPA 관련 설정과 기본 가상 DB(H2)만 메모리에 올려 테스트를 진행했습니다.
-JPA Query Method나 Fetch join쿼리가 실제 데이터베이스 위에서 SQL로 변환되어 의도한 레코드를 가져오는지를 검증했습니다.
+JPA Query Method나 Fetch join쿼리가 실제 데이터베이스 위에서 SQL로 변환되어 의도
+한 레코드를 가져오는지를 검증했습니다.
 
 2. BoardJpaServiceTest 
 검증 대상 : 핵심 비즈니스 로직 및 예외 제어 계층 BoardJpaService
@@ -15,7 +16,7 @@ JPA Query Method나 Fetch join쿼리가 실제 데이터베이스 위에서 SQL�
 특징 : @WebMvcTest(BoardController.class)를 활용하여 Controller, Spring MVC 매핑, JSON 변환, Validation, ExceptionHandler를 얇게 테스트한다
 
 - Jacoco
-<img width="901" height="301" alt="스크린샷 2026-06-26 041900" src="https://github.com/user-attachments/assets/abd9e068-280b-4c04-879c-808e907fe3ad" />  
+<img width="901" height="301" alt="스크린샷 2026-06-26 041900" src="https://github.com/user-attachments/assets/5a55f485-7392-4b4a-ad20-d7e915aa7d49" />
 
 JaCoCo 보고서
 
